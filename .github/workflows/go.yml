@@ -22,7 +22,7 @@ jobs:
         go-version: 1.20
 
     - name: Clone epository
-      uses: |
+      run: |
         echo Test
         cd $GITHUB_WORKSPACE
         git clone https://github.com/dutchcoders/transfer.sh.git --depth=1 transfer
